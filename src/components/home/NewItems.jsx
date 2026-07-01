@@ -107,7 +107,6 @@ const NewItems = () => {
             <h2>New Items</h2>
             <div className="small-border bg-color-2"></div>
           </div>
-
           <div className="col-lg-12">
 
             {/* LOADING SKELETON CAROUSEL */}
@@ -116,36 +115,24 @@ const NewItems = () => {
                 {new Array(4).fill(0).map((_, index) => (
                   <div className="item" key={`loading-${index}`}>
                     <div className="nft__item">
-
-                      {/* AUTHOR IMAGE */}
                       <div className="author_list_pp">
-                        <div
-                          className="skeleton-box"
+                        <div className="skeleton-box"
                           style={{ width: 50, height: 50, borderRadius: "50%" }}
                         ></div>
                       </div>
-
-                      {/* NFT IMAGE */}
                       <div className="nft__item_wrap">
-                        <div
-                          className="skeleton-box"
+                        <div className="skeleton-box"
                           style={{ width: "100%", height: 300 }}
                         ></div>
                       </div>
-
-                      {/* TITLE + PRICE */}
                       <div className="nft__item_info">
-                        <div
-                          className="skeleton-box"
+                        <div className="skeleton-box"
                           style={{ width: "70%", height: 20 }}
                         ></div>
-
-                        <div
-                          className="skeleton-box"
+                        <div className="skeleton-box"
                           style={{ width: "40%", height: 18, marginTop: 10 }}
                         ></div>
                       </div>
-
                     </div>
                   </div>
                 ))}
