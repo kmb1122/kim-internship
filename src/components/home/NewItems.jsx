@@ -116,26 +116,41 @@ const NewItems = () => {
                 {new Array(4).fill(0).map((_, index) => (
                   <div className="item" key={`loading-${index}`}>
                     <div className="nft__item">
+
+                      {/* AUTHOR IMAGE */}
                       <div className="author_list_pp">
-                        <div className="skeleton-author"></div>
-                        <i className="fa fa-check"></i>
+                        <div
+                          className="skeleton-box"
+                          style={{ width: 50, height: 50, borderRadius: "50%" }}
+                        ></div>
                       </div>
 
-                      <div className="de_countdown skeleton-code"></div>
-
+                      {/* NFT IMAGE */}
                       <div className="nft__item_wrap">
-                        <div className="skeleton-nft"></div>
+                        <div
+                          className="skeleton-box"
+                          style={{ width: "100%", height: 300 }}
+                        ></div>
                       </div>
 
+                      {/* TITLE + PRICE */}
                       <div className="nft__item_info">
-                        <div className="skeleton-title"></div>
-                        <div className="skeleton-code"></div>
+                        <div
+                          className="skeleton-box"
+                          style={{ width: "70%", height: 20 }}
+                        ></div>
+
+                        <div
+                          className="skeleton-box"
+                          style={{ width: "40%", height: 18, marginTop: 10 }}
+                        ></div>
                       </div>
+
                     </div>
                   </div>
                 ))}
               </OwlCarousel>
-            )}
+              )}
 
             {/* REAL API CAROUSEL */}
             {!loading && (
