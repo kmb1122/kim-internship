@@ -44,16 +44,21 @@ const TopSellers = () => {
                 new Array(12).fill(0).map((_, index) => (
                   <li key={`loading-${index}`}>
                     <div className="author_list_pp">
-                      <div className="skeleton-author"></div>
-                      <i className="fa fa-check"></i>
+                      <div className="skeleton-box"
+                        style={{ width: 50, height: 50,borderRadius: "50%"}}
+                      ></div>
                     </div>
-
                     <div className="author_list_info">
-                      <div className="skeleton-title"></div>
-                      <div className="skeleton-code"></div>
+                      <div className="skeleton-box" 
+                      style={{width: "70%", height: 18, marginBottom: 8}}
+                      ></div>
+                      <div className="skeleton-box"
+                        style={{ width: "40%", height: 16}}
+                      ></div>
                     </div>
                   </li>
-                ))}
+                ))
+              }
 
               {/* REAL API DATA */}
               {!loading &&
