@@ -22,7 +22,7 @@ const ExploreItems = () => {
     try {
       const { data } = await axios.get(url);
       setItems(data);
-      setVisibleCount(8); // reset visible items
+      setVisibleCount(8); 
     } catch (error) {
       console.error("Error fetching explore items:", error);
     } finally {
@@ -30,12 +30,10 @@ const ExploreItems = () => {
     }
   };
 
-  // Initial load
   useEffect(() => {
     fetchItems();
   }, []);
 
-  // Live countdown tick
   useEffect(() => {
     const interval = setInterval(() => {
       setTick((t) => t + 1);
@@ -43,7 +41,6 @@ const ExploreItems = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // Dropdown handler → fetch new API
   const handleFilterChange = (value) => {
     fetchItems(value);
   };
