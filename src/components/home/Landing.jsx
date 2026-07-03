@@ -8,10 +8,10 @@ import 'aos/dist/aos.css';
 const Landing = () => {
   useEffect(() => {
     AOS.init({
-      duration: 800,      // animation speed
-      easing: "ease-out", // smooth easing
-      once: true,         // animate only once
-      offset: 50          // trigger slightly earlier
+      duration: 800,      
+      easing: "ease-in-out", 
+      once: true,         
+      offset: 50          
     });
   }, []);
 
