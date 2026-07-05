@@ -6,7 +6,7 @@ const ExploreItems = () => {
   const [items, setItems] = useState([]);
   const [visibleCount, setVisibleCount] = useState(8);
   const [loading, setLoading] = useState(true);
-  const [tick, setTick] = useState(0);
+  const [tick, setTick] = useState(0); 
 
   // Fetch API (default + filtered)
   const fetchItems = async (filter = "") => {
@@ -60,6 +60,8 @@ const ExploreItems = () => {
 
     return `${hours}h ${minutes}m ${seconds}s`;
   };
+
+  void tick;
 
   return (
     <>
