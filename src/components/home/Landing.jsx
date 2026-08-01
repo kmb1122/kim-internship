@@ -1,10 +1,13 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import NFT from "../../images/nft.png";
 import backgroundImage from "../../images/bg-shape-1.jpg";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Landing = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     AOS.init({
       duration: 800,      
@@ -40,7 +43,7 @@ const Landing = () => {
                 interchangeable
               </p>
               <div className="spacer-10"></div>
-              <button className="btn-main lead" to="/explore" data-aos="fade-zoom-in" data-aos-delay="1250">
+              <button className="btn-main lead" onClick={() => Navigate("/explore")} data-aos="fade-zoom-in" data-aos-delay="1250">
                 Explore
               </button>
               <div className="mb-sm-30"></div>
