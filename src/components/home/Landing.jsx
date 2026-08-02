@@ -43,7 +43,7 @@ const Landing = () => {
                 interchangeable
               </p>
               <div className="spacer-10"></div>
-              <button className="btn-main lead" onClick={() => Navigate("/explore")} data-aos="fade-zoom-in" data-aos-delay="1250">
+              <button className="btn-main lead" onClick={() => navigate("/explore")} data-aos="fade-zoom-in" data-aos-delay="1250">
                 Explore
               </button>
               <div className="mb-sm-30"></div>
