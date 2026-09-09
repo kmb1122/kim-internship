@@ -1,3 +1,10 @@
+NFT marketplace place built with React and Tailwind CSS. Showcasing dynamic routing, reponsive loading states, and carousel browsing. 
+
+<img width="1607" height="1090" alt="FES-Internship" src="https://github.com/user-attachments/assets/e907ccab-5000-4ffe-964b-356f1e229af3" />
+
+To view the user interface visit: https://kim-internship-phi.vercel.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
