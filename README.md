@@ -13,12 +13,12 @@ This project was built with React and Tailwind CSS. It showcases dynamic routing
 
 ## Tech Stack
 
--React
--TailwindCSS
--CSS
--JavaScript
--HTML
--Node
+- React
+- TailwindCSS
+- CSS
+- JavaScript
+- HTML
+- Node
 
 ## Key Features
 
