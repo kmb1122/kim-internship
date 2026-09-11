@@ -1,13 +1,37 @@
-NFT marketplace place built with React and Tailwind CSS. Showcasing dynamic routing, reponsive loading states, and carousel browsing. 
+# NFT Market Place
 
-To view the user interface visit: https://kim-internship-phi.vercel.app/
+This project was built with React and Tailwind CSS. It showcases dynamic routing, reponsive loading states, on-sale count down timers, and carousel browsing. 
+
+## Live Demo
+
+[View Live Demo](https://kim-internship-phi.vercel.app/)
+
+## Screenshots
 
 <img width="1607" height="1090" alt="FES-Internship" src="https://github.com/user-attachments/assets/e907ccab-5000-4ffe-964b-356f1e229af3" />
+<img width="1767" height="765" alt="image" src="https://github.com/user-attachments/assets/f1962742-f270-4083-bb6d-873b07c12cb0" />
 
+## Tech Stack
 
+-React
+-TailwindCSS
+-CSS
+-JavaScript
+-HTML
+-Node
 
+## Key Features
 
-# Getting Started with Create React App
+- Dynamic Routing
+- Loading State & Animations
+- OWL Carousel
+- On-sale Countdown Timers
+
+## Technical Decisions
+
+With the loading states, I chose to put a general "loading__skeleton" class in the glabal.css that dictaed the shimmering background. Then I used TailwindCSS to custom the size and shape for different parts. That way I could put the "loading__skeleton" class in any comooponent.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -23,57 +47,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## Know Limitations
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is an example NFT Website. No art can actually be purchased. Artist can't upload new works and get payed.
 
-### `npm run build`
+## Future Improvements
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Make a payment system where art can be bought and artist can get payed. Make it so artist can upload works.
